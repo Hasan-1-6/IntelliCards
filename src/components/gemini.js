@@ -1,7 +1,5 @@
 import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 
-
-// GEMINI_KEY = "AIzaSyCRnmD3eiTSKDvEntIr-oJzjI5UGSc_8JA"
 const key = import.meta.env.VITE_GEMINI_API
 
 
