@@ -4,6 +4,11 @@
 
 Built with **React**, **Tailwind CSS**, and **Vite**, it’s a fast, stylish, and practical tool for learners of all kinds.
 
+
+---
+
+📍 Try it at **[intelli-cards-jade.vercel.app](https://intelli-cards-jade.vercel.app)**!
+
 ---
 
 ## ✨ Features
@@ -23,21 +28,7 @@ Built with **React**, **Tailwind CSS**, and **Vite**, it’s a fast, stylish, an
 - Node.js (v16+)
 - npm or yarn
 
-### Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/Hasan-1-6/IntelliCards.git
-
-# Move into the project folder
-cd IntelliCards
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-````
 ---
 
 ## ⚙️ Technologies Used
