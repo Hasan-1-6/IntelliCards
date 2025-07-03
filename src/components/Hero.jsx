@@ -83,10 +83,10 @@ async function GenerateAiText(){
       <div className="min-h-[86vh]  flex justify-center  backdrop-opacity-20">
         <div className="flex justify-center items-center shrink-0 gap-x-10 gap-y-6 flex-wrap w-11/12 py-6 ">
           {/* put this mapping in a function and pass data as an argument init by state itself */}
-          {cardsNum ? Data.map((newArr, index) => (
-            if(newArr === 'dm-default-theme') continue;
+          {cardsNum ? Data.map((newArr, index) => {
+            if(newArr === 'dm-default-theme') return null;
             return <Card key = {index} question = {newArr.question} answer = {newArr.answer} resetSignal={resetSignal}/> 
-          )) : 
+            }) : 
           <p className="text-9xl select-none bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-700 font-extrabold tracking-tight">
             Hello There !!!
           </p>}
